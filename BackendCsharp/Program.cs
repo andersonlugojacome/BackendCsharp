@@ -3,6 +3,10 @@ Console.WriteLine("Hello, World!, DigitalesWeb");
 Sale sale = new Sale(20);
     //sale.Total = 15;
 Console.WriteLine("Sale cuesta: " + sale.Total.ToString());
+OtherClass otherClass = new OtherClass();
+Console.WriteLine("Sale cuesta: " + sale.Sum(1, 2));
+otherClass.Print();
+
 
 
 class Sale
